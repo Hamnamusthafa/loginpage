@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(2, 42, 42) ;
+    color: white;
+}
+.container{
+    width: 100px;
+    top: 100px;
+    left: 900px;
+
+}
+.container h1{
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.container label{
+    font-size: 20px;
+    margin:15px 0;
+}
+.container input{
+    font-size: 10px;
+    margin: 15px 0;
+    width: 200%;
+    padding: 5px 5px ;
+    border color: white;
+    
+    background-color:rgb(3, 37, 42) ;
+    color: white;
+}
+.container button{
+    width: 200px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 14px;
+    
+    cursor: pointer;
+    color: black;
+}
+.container button :hover{
+    background: black;
+    color: white;
+}
+.social-media ul{
+    position: absolute;
+    top: 60.99%;
+    left: 18%;
+    transform: translate(-50%,-60%);
+    display: flex;
+}
+.social-media ul li{
+    list-style: none;
+    margin: 10 10px;
+}
+.social-media ul li.fab{
+    font-size: 0.5px;
+    line-height: 0.1px;
+    transition:.8s ;
+    color: black;
+}
+.social-media ul li a:hover{
+    color: white;
+}
+.social-media ul li a{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: black;
+    text-align: center;
+    margin: 16px 0px;
+    margin-right: 10px;
+    border color: #000000 6px;
+    color : blue;
+}
+
